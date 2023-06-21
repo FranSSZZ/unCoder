@@ -22,6 +22,10 @@ class Entrevista
     #[ORM\Column(length: 255)]
     private ?string $transcripcion = null;
 
+    #[ORM\ManyToOne(inversedBy: 'entrevistas')]
+    #[ORM\JoinColumn(nullable: false)]
+    private ?Escena $Rel_escena = null;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -59,6 +63,18 @@ class Entrevista
     public function setTranscripcion(string $transcripcion): static
     {
         $this->transcripcion = $transcripcion;
+
+        return $this;
+    }
+
+    public function getRelEscena(): ?Escena
+    {
+        return $this->Rel_escena;
+    }
+
+    public function setRelEscena(?Escena $Rel_escena): static
+    {
+        $this->Rel_escena = $Rel_escena;
 
         return $this;
     }

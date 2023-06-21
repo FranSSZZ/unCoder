@@ -3,6 +3,8 @@
 namespace App\Entity;
 
 use App\Repository\EscenaRepository;
+use Doctrine\Common\Collections\ArrayCollection;
+use Doctrine\Common\Collections\Collection;
 use Doctrine\DBAL\Types\Types;
 use Doctrine\ORM\Mapping as ORM;
 
@@ -31,6 +33,21 @@ class Escena
 
     #[ORM\Column(length: 255)]
     private ?string $testigo2 = null;
+
+    #[ORM\OneToOne(mappedBy: 'Rel_escena', cascade: ['persist', 'remove'])]
+    private ?Library $library = null;
+
+    #[ORM\OneToMany(mappedBy: 'Rel_escena', targetEntity: Entrevista::class)]
+    private Collection $entrevistas;
+
+    #[ORM\OneToMany(mappedBy: 'escena', targetEntity: Persona::class)]
+    private Collection $Rel_personas;
+
+    public function __construct()
+    {
+        $this->entrevistas = new ArrayCollection();
+        $this->Rel_personas = new ArrayCollection();
+    }
 
     public function getId(): ?int
     {
@@ -105,6 +122,83 @@ class Escena
     public function setTestigo2(string $testigo2): static
     {
         $this->testigo2 = $testigo2;
+
+        return $this;
+    }
+
+    public function getLibrary(): ?Library
+    {
+        return $this->library;
+    }
+
+    public function setLibrary(Library $library): static
+    {
+        // set the owning side of the relation if necessary
+        if ($library->getRelEscena() !== $this) {
+            $library->setRelEscena($this);
+        }
+
+        $this->library = $library;
+
+        return $this;
+    }
+
+    /**
+     * @return Collection<int, Entrevista>
+     */
+    public function getEntrevistas(): Collection
+    {
+        return $this->entrevistas;
+    }
+
+    public function addEntrevista(Entrevista $entrevista): static
+    {
+        if (!$this->entrevistas->contains($entrevista)) {
+            $this->entrevistas->add($entrevista);
+            $entrevista->setRelEscena($this);
+        }
+
+        return $this;
+    }
+
+    public function removeEntrevista(Entrevista $entrevista): static
+    {
+        if ($this->entrevistas->removeElement($entrevista)) {
+            // set the owning side to null (unless already changed)
+            if ($entrevista->getRelEscena() === $this) {
+                $entrevista->setRelEscena(null);
+            }
+        }
+
+        return $this;
+    }
+
+    /**
+     * @return Collection<int, Persona>
+     */
+    public function getRelPersonas(): Collection
+    {
+        return $this->Rel_personas;
+    }
+
+    public function addRelPersona(Persona $relPersona): static
+    {
+        if (!$this->Rel_personas->contains($relPersona)) {
+            $this->Rel_personas->add($relPersona);
+            $relPersona->setEscena($this);
+        }
+
+        return $this;
+    }
+
+    public function removeRelPersona(Persona $relPersona): static
+    {
+        if ($this->Rel_personas->removeElement($relPersona)) {
+            // set the owning side to null (unless already changed)
+            if ($relPersona->getEscena() === $this) {
+                $relPersona->setEscena(null);
+            }
+        }
 
         return $this;
     }

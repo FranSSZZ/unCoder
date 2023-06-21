@@ -34,6 +34,14 @@ class Persona
     #[ORM\Column(length: 255)]
     private ?string $t_tatuaje = null;
 
+    #[ORM\ManyToOne(inversedBy: 'personas')]
+    #[ORM\JoinColumn(nullable: false)]
+    private ?Library $Rel_libraray = null;
+
+    #[ORM\ManyToOne(inversedBy: 'Rel_personas')]
+    #[ORM\JoinColumn(nullable: false)]
+    private ?Escena $escena = null;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -119,6 +127,30 @@ class Persona
     public function setTTatuaje(string $t_tatuaje): static
     {
         $this->t_tatuaje = $t_tatuaje;
+
+        return $this;
+    }
+
+    public function getRelLibraray(): ?Library
+    {
+        return $this->Rel_libraray;
+    }
+
+    public function setRelLibraray(?Library $Rel_libraray): static
+    {
+        $this->Rel_libraray = $Rel_libraray;
+
+        return $this;
+    }
+
+    public function getEscena(): ?Escena
+    {
+        return $this->escena;
+    }
+
+    public function setEscena(?Escena $escena): static
+    {
+        $this->escena = $escena;
 
         return $this;
     }

@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Edit Entrevista{% endblock %}
+
+{% block body %}
+    <h1>Edit Entrevista</h1>
+
+    {{ include('entrevista/_form.html.twig', {'button_label': 'Update'}) }}
+
+    <a href="{{ path('app_entrevista_index') }}">back to list</a>
+
+    {{ include('entrevista/_delete_form.html.twig') }}
+{% endblock %}

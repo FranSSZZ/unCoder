@@ -1,0 +1,105 @@
+id,nombre,c_ojos,c_cabello,t_zapato,genero,tatuaje,tipo_tatuaje
+2219,Marta Lopez, Marron, Rubio,38, Femenino,no,no
+3860, Santiago Herrera, Azul, Negro,42, Masculino,no,no
+5067, Ana Martinez, Verde, Castano,37, Femenino,no,no
+6581, Valentina Vargas, Marron, Pelirrojo,43, Femenino,no,no
+6539, Matias Rojas, Azul, Rubio,39, Masculino,no,no
+7365, Isabella Medina, Marron, Negro,41, Femenino,no,no
+2267, Andrea Rodriguez, Verde, Castano,36, Femenino,no,no
+1484, Daniel Sanchez, Azul, Rubio,44, Masculino,no,no
+6563, Sofia Lopez, Marron, Rubio,37, Femenino,no,no
+6592, Leonardo Castro, Marron, Castano,42, Masculino,no,no
+2075, Isabel Torres, Azul, Castano,39, Femenino,no,no
+2720, Sergio Vargas, Marron, Negro,43, Masculino,no,no
+1556, Paula Martin, Verde, Rubio,38, Femenino,no,no
+1945, Ricardo Gomez, Marron, Pelirrojo,42, Masculino,no,no
+1662, Maria Torres, Azul, Rubio,37, Femenino,no,no
+3407, Pedro Ramirez, Marron, Negro,40, Masculino,no,no
+4920, Luciana Morales, Verde, Castano,36, Femenino,no,no
+7415, Javier Lopez, Azul, Rubio,43, Masculino,no,no
+6603, Marta Sanchez, Marron, Rubio,38, Femenino,no,no
+3653, Diego Garcia, Marron, Castano,42, Masculino,no,no
+8569, Ana Rodriguez, Azul, Rubio,37, Femenino,no,no
+3316, David Torres, Marron, Negro,41, Masculino,no,no
+4315, Adrian Ortega, Verde, Rubio,39, Masculino,no,no
+8191, Miguel Ramirez, Marron, Pelirrojo,44, Masculino,no,no
+1018, Andrea Garcia, Azul, Rubio,36, Femenino,no,no
+3590, Camila Mendoza, Marron, Negro,42, Femenino,no,no
+7588, Emiliano Pena, Marron, Negro,42, Masculino,no,no
+1874, Sofia Ramirez, Verde, Castano,37, Femenino,no,no
+7514, Natalia Rios, Azul, Rubio,43, Femenino,no,no
+3561, Gael Silva, Marron, Rubio,37, Masculino,no,no
+8194, Adrian Perez, Marron, Castano,42, Masculino,no,no
+3279, Laura Gonzalez, Marron, Negro,38, Femenino,no,no
+1389, Alejandro Morales, Azul, Rubio,41, Masculino,no,no
+6750, Marta Fernandez, Verde, Rubio,37, Femenino,no,no
+5556, Javier Garcia, Marron, Pelirrojo,42, Masculino,no,no
+2421, Paula Lopez, Azul, Rubio,39, Femenino,no,no
+3020, Daniel Perez, Marron, Negro,43, Masculino,no,no
+6273, Gabriela Paredes, Verde, Castano,36, Femenino,no,no
+6755,Roberto Sanchez, Azul, Rubio,44, Masculino,no,no
+6708, Maria Ramirez, Marron, Rubio,38, Femenino,no,no
+8086, Miguel Gonzalez, Marron, Castano,42, Masculino,no,no
+5576, Carla Rodriguez, Azul, Rubio,37, Femenino,no,no
+7600, Juan Torres, Marron, Negro,41, Masculino,no,no
+5549, Sebastian Cruz, Verde, Rubio,39, Masculino,no,no
+2496, Sergio Gomez, Marron, Pelirrojo,42, Masculino,no,no
+8667, Valeria Jimenez, Azul, Rubio,36, Femenino,no,no
+4308, Daniel Lopez, Marron, Negro,40, Masculino,no,no
+2620, Marta Garcia, Verde, Castano,37, Femenino,no,no
+3232, Juan Pablo Vargas, Azul, Rubio,43, Masculino,no,no
+7731, Laura Sanchez, Marron, Rubio,38, Femenino,no,no
+3314, Alberto Ramirez, Marron, Castano,42, Masculino,no,no
+3601, Laura Torres, Azul, Rubio,37, Femenino,si,Lobo aullando en la luna en el brazo derecho
+4456, Juan Morales, Marron, Negro,41, Masculino,no,no
+1957, Sofia Delgado, Verde, Rubio,39, Femenino,no,no
+8976, Alejandro Ramirez, Marron, Pelirrojo,42, Masculino,si,Rosa con tallo y espinas en el hombro izquierd
+2260, Carlos Mendez, Marron, Negro,42, Masculino,si,Mandala en el antebrazo izquierdo
+2678, Alejandro Torres, Verde, Castano,37, Masculino,si,Pluma con aves volando en la muneca derecha
+3570, Antonella Lopez, Azul, Rubio,43, Femenino,no,no
+3485, Francisco Ruiz, Marron, Rubio,37, Femenino,no,no
+3118, Daniel Ramirez, Marron, Castano,42, Masculino,si,Ancla con una brujula en el pecho
+3329, Victoria Ramirez, Azul, Rubio,37, Femenino,si,"Tatuaje Tribal, pierna derecha"
+1548, Juan Lopez, Marron, Negro,41, Masculino,no,no
+6036, Laura Martinez, Verde, Rubio,39, Femenino,no,no
+2444, Sergio Ramirez, Marron, Pelirrojo,42, Masculino,si,Dragon envolviendo el brazo derecho
+2049, Laura Garcia, Azul, Rubio,36, Femenino,no,no
+8179, Carlos Lopez, Marron, Negro,42, Masculino,si,no
+1285, Laura Rodriguez, Verde, Castano,37, Femenino,si,Simbolo del infinito en la muneca izquierda
+5200, Alejandro Sanchez, Azul, Rubio,43, Masculino,no,no
+3065, Laura Lopez, Marron, Rubio,37, Femenino,no,no
+8544, Javier Ramirez, Marron, Castano,42, Masculino,si,Pluma de pajaro detras de la oreja derecha
+4441, Sofia Ramos, Verde, Rubio,38, Femenino,no,no
+7582, Rodrigo Medina, Marron, Negro,41, Masculino,si,no
+8468, Marina Vargas, Azul, Rubio,39, Femenino,si,Corazon entrelazado con las iniciales de un ser querido en el pecho
+4248, Hugo Paredes, Marron, Castano,42, Masculino,no,no
+5792, Valeria Ortega, Azul, Rubio,36, Femenino,no,no
+7172, Adrian Torres, Marron, Negro,42, Masculino,si,Reloj de bolsillo con flores en el antebrazo izquierdo
+1792, Carolina Silva, Verde, Castano,37, Femenino,si,Sol y una luna en los omoplatos
+6125, Mateo Vidal, Azul, Rubio,43, Masculino,no,no
+3265, Daniela Torres, Marron, Rubio,37, Femenino,no,no
+3234, Mario Lopez, Marron, Castano,42, Masculino,si,Leon rugiendo en el biceps derecho
+1220,Franci Sanchez Zambrano,Marron oscuro,Negro,37, Femenino,si,"Arbol de cerezo, pierna izquierda"
+2342,Melanie Rodriguez Perez,Marron oscuro,Castano obscuro,41,Femenino,no,no
+3583,Gabriela,castano,castano,40,femenino,no,no
+2560,Chiarita,Castano,Castano,38,Mujer,no,no
+7825,Kibria,Negro,Negro,40,Masculino,no,no
+8331,Bea,Marrones,Negro,40,Femenino,si,Arbol de la vida en la espalda baja
+6893,Mariama,Marron,Rubio,38,No Binario,si,Calavera en llamas espalda
+3281,Marcela Romero,Cafe Claro,Chocolate,39,Femenino,si,Corazones de colores brazo derecho parte superior
+2678,Juan Antonio,Marron,Escaso,46,Masculino,no,no
+5063,Cyma,Verde,Pelirroja,37,Mujer,no,no
+2197,Sara,Marron Verdoso,Azul O Verde,40,Femenino,si,"Tatuaje Tribal, brazo izquierdo"
+6446,Juan Carlos,Verde,Blanco,42,Masculino,no,no
+5295,Greiskel,Negro,Negro,37,Mujer,no,no
+4753,Eva,Negros,Negro,41,Mujer,si,Dragon multicolor pierna derecha
+3709,Jorge,Verdes,Negro,45,Masculino,no,no
+6696,Ana,Cafe,Cafe,38,Femenino,no,no
+2711,Leydy Garcia,Marron Oscuro,Negro,38,Femenina,no,no
+7663,Marisol,Verde,Rubio,39,Femenino,no,no
+7253,Liliana,Marron,Marron Con Mechas,36,Mujer,no,no
+7182,Alberto Diaz Esteban,Azul,Rubio,43,No Binario,no,no
+5694,Zoraida Manzanares Jimenez,Marron,Castano Oscuro,38,No Gender,si,Dos lineas con dos pajaritas al final
+2358,Nacyla Messaoud,,,,,,
+5998,Yeny Garcia,,,,,,
+,,,,,,,

@@ -1,0 +1,46 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Escena{% endblock %}
+
+{% block body %}
+    <h1>Escena</h1>
+
+    <table class="table">
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ escena.id }}</td>
+            </tr>
+            <tr>
+                <th>Fecha</th>
+                <td>{{ escena.fecha }}</td>
+            </tr>
+            <tr>
+                <th>Ciudad</th>
+                <td>{{ escena.ciudad }}</td>
+            </tr>
+            <tr>
+                <th>Tipo_crimen</th>
+                <td>{{ escena.tipoCrimen }}</td>
+            </tr>
+            <tr>
+                <th>Descripcion</th>
+                <td>{{ escena.descripcion }}</td>
+            </tr>
+            <tr>
+                <th>Testigo1</th>
+                <td>{{ escena.testigo1 }}</td>
+            </tr>
+            <tr>
+                <th>Testigo2</th>
+                <td>{{ escena.testigo2 }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <a href="{{ path('app_escena_index') }}">back to list</a>
+
+    <a href="{{ path('app_escena_edit', {'id': escena.id}) }}">edit</a>
+
+    {{ include('escena/_delete_form.html.twig') }}
+{% endblock %}
